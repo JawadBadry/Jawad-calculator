@@ -34,18 +34,20 @@ button{color : white
        font-size : 25px}
 </style>
 <body>
-<button>1</button>
-  <button>2</button>
-  <button>3</button>
+<center>
+<h1 id="view">0</h1> <button onclick="view.innerHTML = '1'">1</button>
+<button onclick="view.innerHTML = '2'">2</button>
+<button onclick="view.innerHTML = '3'">3</button>
+<br>
+<button onclick="view.innerHTML += '4'">4</button>
+<button onclick="view.innerHTML += '5'">5</button>
+<button onclick="view.innerHTML += '6'">6</button>
   <br>
-  <button>4</button>
-  <button>5</button>
-  <button>6</button>
+<button onclick="view.innerHTML += '7'">7</button>
+<button onclick="view.innerHTML += '8'">8</button>
+<button onclick="view.innerHTML += '9'">9</button>
   <br>
-  <button>7</button>
-  <button>8</button>
-  <button>9</button>
-  <br>
-  <button>0</button>
+<button onclick="view.innerHTML += '0'">0</button>
+</center>
 </body> 
 </html>
