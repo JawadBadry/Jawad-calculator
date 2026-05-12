@@ -32,12 +32,24 @@ button{color : white
   button{color : white
        backgraond : black
        font-size : 25px}
+ button{color : white
+       backgraond : black
+       font-size : 30px}
+ button{color : white
+       backgraond : black
+       font-size : 30px}
+ button{color : white
+       backgraond : black
+       font-size : 30px}
+ button{color : white
+       backgraond : black
+       font-size : 30px}
 </style>
-<body>
+<body style="display: grid; place-items: center; height: 100vh; margin: 0;">
 <center>
-<h1 id="view">0</h1> <button onclick="view.innerHTML = '1'">1</button>
-<button onclick="view.innerHTML = '2'">2</button>
-<button onclick="view.innerHTML = '3'">3</button>
+<h1 id="view">0</h1> <button onclick="view.innerHTML += '1'">1</button>
+<button onclick="view.innerHTML += '2'">2</button>
+<button onclick="view.innerHTML += '3'">3</button>
 <br>
 <button onclick="view.innerHTML += '4'">4</button>
 <button onclick="view.innerHTML += '5'">5</button>
@@ -48,6 +60,11 @@ button{color : white
 <button onclick="view.innerHTML += '9'">9</button>
   <br>
 <button onclick="view.innerHTML += '0'">0</button>
+<br>
+<button onclick="view.innerHTML += '+'">+</button>
+<button onclick="view.innerHTML += '-'">-</button>
+<button onclick="view.innerHTML += '*'">*</button>
+<button onclick="view.innerHTML += '/'">/</button>
 </center>
 </body> 
 </html>
